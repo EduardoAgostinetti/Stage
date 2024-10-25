@@ -1,0 +1,41 @@
+.ticket-container p {
+    margin-bottom: 20px;
+    color: #fff;
+  }
+
+  .ticket-container strong{
+    margin-bottom: 20px;
+    color: #fd8c39;
+  }
+
+.action-btn {
+  width: calc(90% - 24px);
+  padding: 10px;
+    border: none;
+    background-color: #fd8c39;
+    color: #333;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btnhidden {
+    display: none;
+}
+
+#solutionTickets{
+  background-color: rgb(254, 255, 174);
+  background-color: rgb(254, 255, 174);
+    width: calc(100% - 24px);
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}

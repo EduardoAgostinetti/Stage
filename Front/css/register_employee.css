@@ -1,0 +1,28 @@
+.ticket-form input[type="submit"]{
+    width: calc(100% - 24px);
+    padding: 10px;
+    border: none;
+    background-color: #fd8c39;
+    color: #333;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 10px auto;
+  }
+
+  .ticket-form a{
+    text-decoration: none;
+    width: calc(100% - 24px);
+    padding: 10px;
+    border: none;
+    background-color: #fd8c39;
+    color: #333;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 10px auto;
+  }

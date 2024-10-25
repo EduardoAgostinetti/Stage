@@ -1,0 +1,93 @@
+
+.account-container {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+  }
+
+  .toggle-buttons-account {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .toggle-buttons-account button {
+    padding: 10px 20px;
+    border: none;
+    background-color: transparent;
+    color: #fd8c39;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+    position: relative;
+  }
+
+  .toggle-buttons-account button::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #fd8c39;
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.3s ease;
+  }
+
+  .toggle-buttons-account button.active {
+    color: #fd8c39;
+  }
+
+  .toggle-buttons-account button.active::after {
+    width: calc(100% - 20px);
+  }
+
+  .toggle-buttons-account button:not(.active) {
+    opacity: 1;
+  }
+
+  .toggle-buttons-account button:not(.active):hover {
+    opacity: 0.7;
+  }
+
+  .account-container h2 {
+    margin-bottom: 20px;
+    color: #fd8c39;
+  }
+
+  .account-form {
+    display: none;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .account-links a{
+    text-decoration: none;
+    color: #fd8c39;
+  }
+
+  .personalData, .security {
+    display: none;
+}
+
+#nicknameForm input[type="submit"],
+#usernameForm input[type="submit"],
+#passwordForm input[type="submit"]{
+  width: calc(100% - 24px);
+  padding: 10px;
+  border: none;
+  background-color: #fd8c39;
+  color: #333;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 10px auto;
+}

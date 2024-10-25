@@ -1,0 +1,45 @@
+#ticketForm input[type="submit"]{
+    width: calc(100% - 24px);
+    padding: 10px;
+    border: none;
+    background-color: #fd8c39;
+    color: #333;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 10px auto;
+  }
+
+  #ticketForm a{
+    text-decoration: none;
+    width: calc(100% - 24px);
+    padding: 10px;
+    border: none;
+    background-color: #fd8c39;
+    color: #333;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 10px auto;
+  }
+
+  .ticket-form textarea {
+    background-color: rgb(254, 255, 174);
+    height: 100px; 
+    resize: none; 
+    width: 90%;
+}
+
+.form-group select {
+    background-color: rgb(254, 255, 174);
+    width: calc(100% - 24px);
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 10px;
+    transition: border-color 0.3s ease;
+  }

@@ -1,0 +1,175 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fd8c39;
+    padding: 4px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo  img{
+    width: 70px;
+
+    
+}
+.logo a{
+    font-family: cursive;
+    text-decoration: none;
+    color: #fd8c39;
+    font-size: 12px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    margin-left: 50px;
+}
+
+.nav-links a {
+    text-align: center;
+    font-size: 13px;
+    text-decoration: none;
+    color: #fd8c39;
+    padding: 10px 20px;
+    display: block;
+}
+
+.right-buttons {
+    display: flex;
+}
+
+.right-buttons a {
+    text-align: center;
+    font-size: 13px;
+    text-decoration: none;
+    color: #fd8c39;
+    padding: 10px 20px;
+    display: block;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.dropdown-menu {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    width: 200px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center; /* Centraliza todo o conteúdo */
+}
+
+.dropdown-menu .nav-links, .dropdown-menu .right-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens */
+}
+
+.dropdown-menu a {
+    text-decoration: none;
+    color: #fd8c39;
+    padding: 10px 20px;
+    display: block;
+    text-align: center;
+}
+
+.hamburger-dt {
+    display: block;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+
+.dropdown-menu-dt {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    width: 200px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center; /* Centraliza todo o conteúdo */
+}
+
+.dropdown-menu-dt .nav-links, .dropdown-menu-dt .right-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens */
+}
+
+.dropdown-menu-dt a {
+    text-decoration: none;
+    color: #fd8c39;
+    padding: 10px 20px;
+    display: block;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links, .right-buttons {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+    .hamburger-dt {
+        display: none;
+        cursor: pointer;
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .nav-links {
+        
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;
+        margin-left: 50px;
+    }
+
+    .nav-links a {
+        text-align: center;
+        text-decoration: none;
+        color: #fd8c39;
+        padding: 10px 20px;
+        display: block;
+    }
+
+    .right-buttons {
+        display: flex;
+    }
+
+    .right-buttons a {
+        text-align: center;
+        text-decoration: none;
+        color: #fd8c39;
+        padding: 10px 20px;
+        display: block;
+    }
+
+    .dropdown-menu {
+        display: none !important;
+    }
+}

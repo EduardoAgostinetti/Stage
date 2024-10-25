@@ -1,0 +1,62 @@
+.report-container {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+    height: 100%;
+  }
+
+  .report-container h2 {
+    margin-bottom: 20px;
+    color: #fd8c39;
+  }
+
+  .view-btn{
+    color: #fd8c39;
+  }
+
+  .view-btn:hover{
+    color: #e3fd39;
+  }
+
+  .report-container th {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #fd8c39;
+  }
+  .report-container td {
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #fff;
+  }
+
+  @media screen and (max-width: 768px) {
+    .report-container {
+        background-color: #333;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 360px;
+        text-align: center;
+        height: 100%;
+        
+      }
+    
+      .report-container h2 {
+        margin-bottom: 20px;
+        color: #fd8c39;
+      }
+    
+      .report-container th {
+        font-size: 10px;
+        margin-bottom: 10px;
+        color: #fd8c39;
+      }
+      .report-container td {
+        margin-bottom: 10px;
+        font-size: 10px;
+        color: #fff;
+      }
+}
